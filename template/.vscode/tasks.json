@@ -1,0 +1,56 @@
+{
+	"version": "1.0.0",
+	"tasks": [
+		{
+			"label": "Create Folder & JSX/SCSS-files in src/components",
+			"type": "shell",
+			"command": "node ./.vscode/create_and_open.js ${input:folderName} css",
+			"problemMatcher": [],
+			"inputs": [
+				{
+					"id": "folderName",
+					"type": "promptString",
+					"description": "Enter the folder name"
+				}
+			],
+			"presentation": {
+				"echo": false,
+				"reveal": "never",
+				"focus": false, 
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false,
+				"close": true
+			}
+		},
+		{
+			"label": "Create Folder & JSX-file in src/components",
+			"type": "shell",
+			"command": "node ./.vscode/create_and_open.js ${input:folderName}",
+			"problemMatcher": [],
+			"inputs": [
+				{
+					"id": "folderName",
+					"type": "promptString",
+					"description": "Enter the folder name"
+				}
+			],
+			"presentation": {
+				"echo": false,
+				"reveal": "never",
+				"focus": false, 
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false,
+				"close": true
+			}
+		}
+	],
+	"inputs": [
+		{
+			"id": "folderName",
+			"type": "promptString",
+			"description": "Enter the component name"
+		}
+	]
+}

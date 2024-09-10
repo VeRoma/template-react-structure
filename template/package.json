@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "private": false,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.78.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.0.1-rc.4",
+    "@rsbuild/plugin-react": "1.0.1-rc.4",
+    "@rsbuild/plugin-sass": "^1.0.1-rc.5"
+  }
+}

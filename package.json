@@ -1,0 +1,11 @@
+{
+	"name": "create-vrr-app",
+	"version": "1.0.3",
+	"bin": {
+	  "create-vrr-app": "./index.js"
+	},
+	"dependencies": {
+	  "fs-extra": "^10.0.0"
+	}
+  }
+  
