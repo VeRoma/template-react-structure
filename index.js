@@ -59,7 +59,10 @@ async function createProject() {
     console.log('Устанавливаем зависимости...');
     execSync('npm install', { stdio: 'inherit' });
 
-    console.log('Проект успешно создан!');
+	console.log('Обновляем зависимости...');
+    execSync('npx npm-check-updates --target minor -u', { stdio: 'inherit' });
+
+    console.log('Проект успешно создан с обновлёнными зависимостями');
 
     // Запуск VS Code в текущей директории
     console.log('Запуск VS Code...');

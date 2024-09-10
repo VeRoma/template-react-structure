@@ -1,6 +1,6 @@
 {
 	"name": "create-vrr-app",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"bin": {
 	  "create-vrr-app": "./index.js"
 	},
