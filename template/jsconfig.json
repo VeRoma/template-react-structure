@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"baseUrl": "src", // Корневая директория проекта
 		"paths": {
-			"@components/*": ["components/*"] // Настройка алиасов для путей
+			"@/components/*": ["components/*"] // Настройка алиасов для путей
 		}
 	},
 	"include": ["src/**/*"] // Включаем все файлы в папке src
