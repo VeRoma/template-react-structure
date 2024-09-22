@@ -1,9 +1,10 @@
 {
-	"compilerOptions": {
-		"baseUrl": "src", // Корневая директория проекта
-		"paths": {
-			"@/components/*": ["components/*"] // Настройка алиасов для путей
-		}
-	},
-	"include": ["src/**/*"] // Включаем все файлы в папке src
+  "compilerOptions": {
+    "baseUrl": "src", // Корневая директория проекта
+    "paths": {
+      "@/components/*": ["components/*"], // Алиас для всех компонентов
+      "@/pages/*": ["Pages/*"] // Алиас для страниц
+    }
+  },
+  "include": ["src/**/*"]
 }
